@@ -1,0 +1,444 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*menu*/
+
+.head-1 {
+    width: 100%;
+    color: white;
+    height: 100%;
+    border-bottom-left-radius: 20%;
+}
+
+.head-1 ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.head-1 ul li {
+    padding-left: 38px;
+}
+
+.menu {
+    font-family: sans-serif;
+    margin-left: 28px;
+    font-size: 16.5px;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    color: rgba(0, 0, 0, 0.8);
+    ;
+    opacity: 0.7;
+    transition: 0.5s;
+    transform-origin: left;
+}
+
+.new {
+    text-align: center;
+    padding-top: 15%;
+    font-size: 25px;
+    font-family: serif;
+    color: #000;
+}
+
+.wel::after {
+    content: '';
+    width: 160px;
+    height: 4px;
+    background: #F46725;
+    display: block;
+    margin: 0 auto;
+}
+
+.sub {
+    position: fixed;
+    background-color: #efc41c;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.sub a {
+    color: white;
+}
+
+
+/*midia*/
+
+.head-1 .redes {
+    margin-left: 550px;
+    cursor: pointer;
+    font-size: 16.5px;
+}
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-youtube {
+    color: #fff;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+
+/*conteudo*/
+
+.container {
+    width: 100%;
+    background-image: url(imagens/contact-us-g1047d37c9_1280.jpg);
+    color: white;
+}
+
+.modal {
+    display: inline-flex;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+
+.localiza {
+    margin-left: 65px;
+}
+
+.msg {
+    margin-left: 140px;
+    margin-top: 4%;
+}
+
+.msg input {
+    width: 260px;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 15px;
+    color: #747272;
+    background-color: #f0eeee;
+}
+
+.nome {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.assunto {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.mensag {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.modal .mensag {
+    width: 555px;
+    height: 110px;
+}
+
+.modal .bt {
+    font-size: 16.5px;
+    margin-left: 35%;
+    border: 1px solid #efc41c;
+    border-radius: 20px;
+    padding: 2%;
+    background-color: #efc41c;
+    cursor: pointer;
+}
+
+.bt:hover {
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.obj {
+    text-align: center;
+    margin-bottom: 12%;
+    font-size: 38px;
+}
+
+.geral {
+    color: #efc41c;
+}
+
+.obj::after {
+    content: '';
+    width: 130px;
+    height: 4px;
+    background: #efc41c;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+
+/**/
+
+.localiza {
+    margin-top: 9%;
+}
+
+.localiza div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.localiza h3 {
+    padding-left: 12px;
+    color: #7a7979;
+}
+
+.localiza h1 {
+    padding-left: 10px;
+}
+
+
+/*  Contactos */
+
+.rodape {
+    width: 100%;
+    height: 100%;
+    background-color: #151414;
+    color: white;
+    padding-left: 40px;
+    color: #747272;
+}
+
+.rodape form {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.rodape form input {
+    width: 68.5%;
+    padding: 15px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: initial;
+    text-transform: capitalize;
+    font-style: italic;
+    color: white;
+    background-color: #151414;
+}
+
+.receba {
+    padding-top: 20px;
+}
+
+input:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+    transition: 1s ease-in-out;
+}
+
+.botao {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #747272;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.botao:hover {
+    opacity: 0.7;
+    transition: 0.7s;
+    background-color: #efc41c;
+    transition: 1s ease-in-out;
+}
+
+.lema {
+    display: inline-flex;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+
+.logotipo {
+    word-wrap: wrap;
+    width: 20%;
+    padding: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+    background-color: #202020;
+}
+
+.logotipo:hover {
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+}
+
+.contact {
+    padding-left: 120px;
+}
+
+.subscreva {
+    padding-left: 100px;
+}
+
+.titulo {
+    color: #efc41c;
+}
+
+.titulo::after {
+    content: '';
+    width: 80px;
+    height: 4px;
+    background: #efc41c;
+    display: flex;
+    margin-top: 1%;
+}
+
+.identidade a {
+    color: #747272;
+}
+
+.identidade {
+    padding-top: 3%;
+    display: block;
+}
+
+.email {
+    padding-top: 9%;
+}
+
+.local {
+    padding-top: 9%;
+}
+
+.about {
+    padding-top: 12%;
+    font-size: 18px;
+}
+
+.iconbtn:hover {
+    color: #efc41c;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.identidade a:hover {
+    color: #efc41c;
+    transition: 0.5s;
+}
+
+.midia {
+    padding-left: 70px;
+}
+
+#social {
+    color: #747272;
+    font-size: 23px;
+}
+
+#social:hover {
+    color: #efc41c;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.title {
+    color: #efc41c;
+}
+
+.title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: #efc41c;
+    display: flex;
+    margin-top: 1%;
+}
+
+.midia .fa {
+    display: list-item;
+    list-style: none;
+    padding-top: 7px;
+}
+
+
+/*footer*/
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: #747272;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.term {
+    padding-left: 52%;
+    margin-bottom: 1%;
+    font-size: 17px;
+    color: black;
+}
+
+.term:hover {
+    color: #efc41c;
+    transition: 0.5s;
+}
+
+.copy {
+    padding-left: 3%;
+}
+
+.devstep:hover {
+    color: #efc41c;
+    transition: 0.5s ease-in-out;
+}
+
+.btn {
+    border: none;
+    border-radius: 50%;
+    background-color: #efc41c;
+    font-size: 15px;
+    padding: 3px 7px;
+    margin-left: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.sms {
+    border: none;
+    font-size: 20px;
+    background-color: #747272;
+}
+
+.sms a {
+    color: #efc41c;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - DevStep</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="head-1">
+        <div class="sub">
+            <ul class="menu">
+
+
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
+
+            </ul>
+
+            <ul class="redes">
+                <li>
+                    <a href="#" class="fa fa-twitter"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-facebook"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-instagram"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-youtube"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <div class="modal">
+            <div class="localiza">
+                <h1>Cabinda/Luanda - Angola</h1>
+                <h3>Os Nossos Escritórios Fisico:</h3>
+
+                <div>
+                    <img id="imagem" src="imagens/emailico.png" /> Luanda: Talatona, Rua das Bombas dos Emirantes, Travessa 1
+                </div>
+
+                <div>
+                    <img id="imagem" src="imagens/emailico.png" /> Cabinda: Largo do Ambiente, atrás do Escritóriio da Chevron
+                </div>
+
+                <div>
+                    <a><img src="imagens/telefoneico.png"> (+244) 923973606
+                    </a>
+                </div>
+
+                <div>
+                    <d href="#"><img src="imagens/email.png"> devstep3@gmail.com </d>
+                </div>
+
+                <div>
+                    <img src="imagens/clock.png"> Abertura : Das 9H - 30min
+                </div>
+
+                <div>
+                    <img src="imagens/clock.png"> Término : 17h - 30min
+                </div>
+
+            </div>
+
+            <div class="msg">
+                <h1 class="obj"><strong class="geral">Deixe uma</strong> mensagem</h1>
+                <div>
+                    <input type="text" placeholder="Nome" class="nome">
+                    <input type="tel" placeholder="Telefone" class="nome">
+                </div>
+
+                <div>
+                    <input type="email" placeholder="Email" id="email" class="assunto">
+                    <input type="text" placeholder="Assunto" class="assunto">
+                </div>
+
+
+                <div>
+                    <input type="text" placeholder="Deixe a sua mensagem..." class="mensag">
+                </div>
+                <button class="bt" onclick="envio()">Enviar a Mensagem</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="desne">
+
+    </div>
+
+    <section class="rodape">
+
+        <div class="lema">
+
+
+            <div class="logotipo">
+                <h1 class="geral">DevStep</h1>
+                <p>Você não pode deixar de usar a criatividade. Quanto mais você usa, mais você tem.</p>
+            </div>
+
+            <div class="midia">
+                <h2 class="title">Links</h2>
+                <i><a href="#" class="fa fa-twitter" id="social" id="twitter"></a></i>
+
+                <i> <a href="#" class="fa fa-facebook" id="social" id="facebook"></a></i>
+
+                <i> <a href="#" class="fa fa-instagram" id="social" id="insta"></a></i>
+
+                <i> <a href="#" class="fa fa-youtube" id="social" id="youtube"></a></i>
+
+            </div>
+
+            <div class="contact">
+                <h2 class="titulo">CONT<span class="actos">ACTOS</span></h2>
+
+                <div class="identidade">
+
+                    <div class="telefone">
+                        <i>
+                            <a href="#" class="iconbtn fas fa-mobile-alt" > (+244) 923973606</a>
+                        </i>
+                    </div>
+
+                    <div class="email">
+                        <i>
+                            <a href="#" class="fa fa-envelope icon" > devstep3@gmail.com</a>
+                        </i>
+                    </div>
+
+                    <div class="local">
+                        <img id="imagem" src="imagens/emailico.png" />
+                        <a href="#" class=""> Cabinda/Angola</a>
+                    </div>
+
+                    <div class="about">
+                        <i>
+                            <a class="fa fa-users icon" href="about.html"> Sobre nós</a>
+                        </i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="subscreva">
+                <h2 class="titulo" id="creva">Subscreva-se</h2>
+                <p class="receba" id="creva">Receba as nossas promocoes por email</p>
+                <form method="post">
+                    <input type="email" placeholder="Seu email">
+                    <button class="botao" onclick="enviar">Enviar</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p class="copy">&copy, Copyright <b class="devstep"> DevStep by Quim Daniel </b>
+
+            <a class="term" href="#">Termos,Condições e Privacidade</a>
+
+            <button class="sms">
+                <a href="#" class="fa fa-envelope icon" ></a>
+            </button>
+
+            <button class="btn" title="Back to Top">
+					<a href="contacto.html" class="fa fa-angle-up"></a>
+			</button>
+
+
+        </p>
+    </footer>
+
+
+    <script>
+        function envio() {
+            alert('ENVIADO COM SUCESSO');
+        }
+    </script>
+
+</body>
+
+</html>
